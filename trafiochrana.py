@@ -94,6 +94,7 @@ def parse_car_data(car_info):
             log('Car disappeared. Plates: %s; lat: %f; lon: %f; fuel: %d; location: %s' % (
                 car[REG_NUMBER_], car[LATITUDE_], car[LONGITUDE_], car[FUEL_], car[LOCATION_]))
     last_check = check_time
+    sys.stdout.flush()
 
 
 while True:
