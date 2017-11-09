@@ -46,7 +46,7 @@ def log(text):
 
 def car_changed(old_entry, car):
     if fabs(old_entry[LATITUDE_] - car[LATITUDE_]) > 0.001 or fabs(old_entry[LONGITUDE_] - car[LONGITUDE_]) > 0.001 or (
-        old_entry[FUEL_] != car[FUEL_]):
+                old_entry[FUEL_] != car[FUEL_]):
         return True
     return False
 
