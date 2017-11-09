@@ -93,4 +93,4 @@ def parse_car_data(car_info):
 while True:
     car_info = get_data(API_URL)
     parse_car_data(car_info)
-    time.sleep(random.randint(30, 60))
+    time.sleep(random.randint(120, 180))
