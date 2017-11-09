@@ -5,6 +5,10 @@ import urllib
 import time
 import random
 from math import fabs
+import sys
+
+reload(sys)
+sys.setdefaultencoding("utf-8")
 
 LAST_SEEN_ = u'lastSeen'
 LOCATION_ = u'location'
